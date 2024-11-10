@@ -1,6 +1,6 @@
 [
     {
-      "_id": "meetingID123",
+      "_id": "eventID123",
       "name": "Team Meeting",
       "description": "Discuss project goals",
       "organizers": ["userID123"],
@@ -12,7 +12,7 @@
       }
     },
     {
-      "_id": "meetingID456",
+      "_id": "eventID456",
       "name": "Code Review",
       "description": "Review latest PRs",
       "organizers": ["userID456", "userID789"],

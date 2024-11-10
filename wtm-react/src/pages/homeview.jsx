@@ -1,4 +1,4 @@
-import JoinedMeetings from "../components/HomeView/joinedmeetings";
+import JoinedEvents from "../components/HomeView/joinedevents";
 import FriendsDisplay from "../components/HomeView/friendsdisplay";
 import ScheduleDisplay from "../components/HomeView/scheduledisplay.jsx";
 
@@ -15,7 +15,7 @@ export default function HomeView() {
     return (
       <div className='HomeView' style={{ padding: '20px', maxWidth: '1200px', margin: 'auto' }}>
         <Typography variant='h2' gutterBottom>Welcome, {sampleUser}!</Typography>
-        <JoinedMeetings meetings={[]}/>
+        <JoinedEvents events={[]}/>
         <ScheduleDisplay />
         <FriendsDisplay friends={sampleFriends}/>
       </div>

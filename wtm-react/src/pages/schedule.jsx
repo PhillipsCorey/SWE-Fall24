@@ -9,33 +9,23 @@ import AddEventButton from "../components/Schedule/addeventbutton";
 import EditModal from "../components/Schedule/editModal.jsx"; // Import the EditModal component
 import EventList from '../components/Schedule/eventlist.jsx'
 
+import example_events from "../static_database/events.js";  // import the example events
+
 // todo properly order times input, and submit to backend when submit clicked
 // todo change modal to be named editEventModal and createEventModal
 
-const sample_events = [
-  {
-    "_id": "eventID10",
-    "name": "Evening Walk",
-    "description": "Relaxing walk through the park",
-    "start": "2024-10-11 19:00",
-    "end": "2024-10-11 20:00"
-  },
-  {
-    "_id": "eventID11",
-    "name": "Conference Call",
-    "description": "Call with the offshore team",
-    "start": "2024-10-12 08:00",
-    "end": "2024-10-12 09:30"
-  }
-] 
-
-
+function get_users_events() {
+  // TODO: fetch events from the backend using the users ID 
+  // get all 
+  // use effect run when oauge kiads 
+  return example_events;
+}
+ 
 function Schedule() {
 
   //! First, get all the users events for the calender from the backend
-  const [events, setEvents] = useState(sample_events);
-
-  console.log('users_events', events)
+  const users_events = get_users_events();
+  console.log('users_events', users_events)
 
   // Then, create scheduleXCalendar with the config and plugins and users events.
   const plugins = [createEventsServicePlugin()]
@@ -58,7 +48,7 @@ function Schedule() {
 
   const config = {
     views: [createViewWeek(), createViewMonthGrid(), createViewMonthAgenda()],
-    events: events,
+    events: users_events,
     callbacks: callbacks,
     weekOptions: {
       gridHeight: 1500,
@@ -100,7 +90,7 @@ function Schedule() {
     <>
       <AddEventButton calendar={calendar}/>
       <ScheduleXCalendar calendarApp={calendar} style={{ width: '80%', height: '400px', margin: '0 auto' }}/>
-      <EventList events={events} onEventClick={handleEventClick} /> {/* Add the EventList here */}
+      <EventList events={users_events} onEventClick={handleEventClick} /> {/* Add the EventList here */}
       <EditModal 
         open={modalOpen} 
         handleClose={handleCloseModal} 

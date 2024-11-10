@@ -11,7 +11,7 @@ function Navbar() {
         <NavElement linkto="/login" text="Login"/>
         <NavElement linkto="/profile" text="Profile"/>
         <NavElement linkto="/schedule" text="Schedule"/>
-        <NavElement linkto="/create" text="Create Meeting"/>
+        <NavElement linkto="/create" text="Create Event"/>
       </div>
     </nav>
   );

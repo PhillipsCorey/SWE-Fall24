@@ -4,10 +4,10 @@
   - Make a page for event creator, or event participant
 */ 
 
-function MeetingDetails() {
+function EventDetails() {
   return (
-    <div>MeetingDetails</div>
+    <div>EventDetails</div>
   )
 }
   
-export default MeetingDetails;
+export default EventDetails;

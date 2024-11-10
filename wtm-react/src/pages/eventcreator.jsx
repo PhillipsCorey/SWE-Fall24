@@ -2,17 +2,17 @@ import React from 'react';
 import { useState } from 'react';
 import { Button } from '@mui/material';
 
-import  '../components/MeetingCreation/meetingcreator.css';
+import  '../components/EventCreation/eventcreator.css';
 
-import AddMembers from '../components/MeetingCreation/addmembers';
-import MeetingOptions from '../components/MeetingCreation/meetingoptions';
-import DescriptionField from '../components/MeetingCreation/descriptionfield';
+import AddMembers from '../components/EventCreation/addmembers';
+import MeetingOptions from '../components/EventCreation/meetingoptions';
+import DescriptionField from '../components/EventCreation/descriptionfield';
 
-function MeetingCreator() {
+function EventCreator() {
   
   const [formData, setFormData] = useState({
-    meetingName: '',
-    meetingDescription: '',
+    eventName: '',
+    eventDescription: '',
     selectedDays: [true, true, true, true, true, true, true],
     startTime: '',
     endTime: '',
@@ -51,18 +51,18 @@ function MeetingCreator() {
   };
 
   const handleSubmit = () => {
-    console.log("Meeting Created:", formData);
-    //TODO Further logic to send MeetingData to backend can be added here
+    console.log("Event Created:", formData);
+    //TODO Further logic to send eventData to backend can be added here
   };
   
   return (
-    <div className="Meeting-creation-container">
-      <DescriptionField meetingName={formData.meetingName} meetingDescription={formData.meetingDescription} handleChange={handleChange} />
+    <div className="event-creation-container">
+      <DescriptionField eventName={formData.eventName} eventDescription={formData.eventDescription} handleChange={handleChange} />
       <MeetingOptions formData={formData} handleChange={handleChange}/>
       <AddMembers members={formData.members} onMembersChange={handleMembersChange}/>
-      <Button onClick={handleSubmit}>Create Meeting</Button> 
+      <Button onClick={handleSubmit}>Add Event</Button> 
     </div>
   );  
 }
   
-export default MeetingCreator;
+export default EventCreator;

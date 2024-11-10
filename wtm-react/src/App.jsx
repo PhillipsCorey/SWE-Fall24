@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeView from './pages/homeview';
-import MeetingCreator from './pages/meetingcreator';
-import MeetingDetails from './pages/meetingdetails';
+import EventCreator from './pages/eventcreator';
+import EventDetails from './pages/eventdetails';
 import Login from './pages/login';
 import Profile from './pages/profile';
 import Schedule from './pages/schedule';
@@ -69,8 +69,8 @@ function App() {
             <Route path="/login" element={<LoginOnlyRoute><Login /></LoginOnlyRoute>} />
             <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
             <Route path="/schedule" element={<ProtectedRoute><Schedule /></ProtectedRoute>} />
-            <Route path="/create" element={<ProtectedRoute><MeetingCreator/></ProtectedRoute>} />
-            <Route path="/meeting/:id" element={<ProtectedRoute><MeetingDetails /></ProtectedRoute>} /> {/* Dynamic route for meeting details */}
+            <Route path="/create" element={<ProtectedRoute><EventCreator/></ProtectedRoute>} />
+            <Route path="/event/:id" element={<ProtectedRoute><EventDetails /></ProtectedRoute>} /> {/* Dynamic route for event details */}
           </Routes>
         </div>
       </ThemeProvider>

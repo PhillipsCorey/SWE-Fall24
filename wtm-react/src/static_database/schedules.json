@@ -3,46 +3,46 @@
       "_id": "scheduleID1",
       "name": "John's Weekday Schedule",
       "description": "John's typical weekday routine.",
-      "events": [
-        "blockID1",  
-        "blockID3",  
-        "blockID4",  
-        "blockID5",  
-        "blockID13"
+      "blocks": [
+        "blockID1",  // Morning Run
+        "blockID3",  // Team Meeting
+        "blockID4",  // Lunch Break
+        "blockID5",  // Gym Workout
+        "blockID13"  // Reading Time
       ]
     },
     {
       "_id": "scheduleID2",
       "name": "Emily's Work Day",
       "description": "Emily's work-focused day.",
-      "events": [
-        "blockID2",   
-        "blockID6",  
-        "blockID7",   
-        "blockID9"   
+      "blocks": [
+        "blockID2",  // Work on Project
+        "blockID6",  // Client Meeting
+        "blockID7",  // Dinner with Family
+        "blockID9"   // Grocery Shopping
       ]
     },
     {
       "_id": "scheduleID3",
       "name": "Mike's Personal Day",
       "description": "Mike's day off with some personal activities.",
-      "events": [
-        "blockID8",  
-        "blockID10", 
-        "blockID11", 
-        "blockID12"  
+      "blocks": [
+        "blockID8",  // Doctor's Appointment
+        "blockID10", // Evening Walk
+        "blockID11", // Conference Call
+        "blockID12"  // Weekend Trip
       ]
     },
     {
       "_id": "scheduleID4",
       "name": "Sophia's Daily Routine",
       "description": "Sophia's daily schedule with recurring tasks.",
-      "events": [
-        "blockID1",  
-        "blockID4",  
-        "blockID7",  
-        "blockID10", 
-        "blockID13"  
+      "blocks": [
+        "blockID1",  // Morning Run
+        "blockID4",  // Lunch Break
+        "blockID7",  // Dinner with Family
+        "blockID10", // Evening Walk
+        "blockID13"  // Reading Time
       ]
     }
   ]

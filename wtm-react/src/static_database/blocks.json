@@ -1,0 +1,132 @@
+[
+  {
+    "_id": "blockID1",
+    "name": "Morning Run",
+    "description": "Daily jog around the neighborhood",
+    "date": "2024-10-08",
+    "start_time": "06:00",
+    "end_time": "07:00",
+    "repeats": "daily",
+    "priority": 3
+  },
+  {
+    "_id": "blockID2",
+    "name": "Work on Project",
+    "description": "Finish the latest module",
+    "date": "2024-10-08",
+    "start_time": "10:00",
+    "end_time": "13:00",
+    "repeats": "none",
+    "priority": 5
+  },
+  {
+    "_id": "blockID3",
+    "name": "Team Meeting",
+    "description": "Attend the weekly meeting",
+    "date": "2024-10-08",
+    "start_time": "09:00",
+    "end_time": "11:00",
+    "repeats": "weekly",
+    "priority": 4
+  },
+  {
+    "_id": "blockID4",
+    "name": "Lunch Break",
+    "description": "Have lunch with friends",
+    "date": "2024-10-08",
+    "start_time": "13:00",
+    "end_time": "14:00",
+    "repeats": "daily",
+    "priority": 2
+  },
+  {
+    "_id": "blockID5",
+    "name": "Gym Workout",
+    "description": "Leg day at the gym",
+    "date": "2024-10-08",
+    "start_time": "18:00",
+    "end_time": "19:30",
+    "repeats": "weekly",
+    "priority": 4
+  },
+  {
+    "_id": "blockID6",
+    "name": "Client Meeting",
+    "description": "Meet with client for project discussion",
+    "date": "2024-10-09",
+    "start_time": "11:00",
+    "end_time": "12:30",
+    "repeats": "none",
+    "priority": 5
+  },
+  {
+    "_id": "blockID7",
+    "name": "Dinner with Family",
+    "description": "Family dinner at home",
+    "date": "2024-10-09",
+    "start_time": "19:00",
+    "end_time": "20:30",
+    "repeats": "daily",
+    "priority": 1
+  },
+  {
+    "_id": "blockID8",
+    "name": "Doctor's Appointment",
+    "description": "Routine check-up with Dr. Smith",
+    "date": "2024-10-10",
+    "start_time": "10:00",
+    "end_time": "11:00",
+    "repeats": "none",
+    "priority": 5
+  },
+  {
+    "_id": "blockID9",
+    "name": "Grocery Shopping",
+    "description": "Buy weekly groceries at the market",
+    "date": "2024-10-10",
+    "start_time": "17:00",
+    "end_time": "18:00",
+    "repeats": "weekly",
+    "priority": 2
+  },
+  {
+    "_id": "blockID10",
+    "name": "Evening Walk",
+    "description": "Relaxing walk through the park",
+    "date": "2024-10-11",
+    "start_time": "19:00",
+    "end_time": "20:00",
+    "repeats": "daily",
+    "priority": 3
+  },
+  {
+    "_id": "blockID11",
+    "name": "Conference Call",
+    "description": "Call with the offshore team",
+    "date": "2024-10-12",
+    "start_time": "08:00",
+    "end_time": "09:30",
+    "repeats": "none",
+    "priority": 4
+  },
+  {
+    "_id": "blockID12",
+    "name": "Weekend Trip",
+    "description": "Trip to the mountains with friends",
+    "date": "2024-10-14",
+    "start_time": "06:00",
+    "end_time": "20:00",
+    "repeats": "none",
+    "priority": 1
+  },
+  {
+    "_id": "blockID13",
+    "name": "Reading Time",
+    "description": "Read the new book 'Learning MERN'",
+    "date": "2024-10-08",
+    "start_time": "20:00",
+    "end_time": "21:00",
+    "repeats": "daily",
+    "priority": 3
+  }
+]

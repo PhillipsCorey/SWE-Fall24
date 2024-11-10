@@ -1,0 +1,26 @@
+{
+    "_id": "userID123",
+    "blocks":[
+        {
+            "id": 1,
+            "title": "wake up",
+            "description": "get out of bed",
+            "start": "2024-10-30 08:00:00",
+            "end":"2024-10-30 08:05:00"
+        },
+        {
+            "id": 2,
+            "title": "eat breakfast",
+            "description": "get something to eat",
+            "start": "2024-10-30 08:30:00",
+            "end":"2024-10-30 08:45:00"
+        },
+        {
+            "id": 3,
+            "title": "go to work",
+            "description": "get on the road",
+            "start": "2024-10-30 09:00:00",
+            "end":"2024-10-30 09:30:00"
+        }
+    ]
+}
