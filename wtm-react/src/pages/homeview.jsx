@@ -9,7 +9,7 @@ const sampleFriends = [
   { id: 3, name: 'Charlie' },
   { id: 4, name: 'Diana' },
 ];
-const sampleUser = "Matty_User"
+const sampleUser = "Matty_Userfdfdf"
 
 export default function HomeView() {
     return (
